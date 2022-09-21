@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* nav-bar */
+
+.Nav {
+  background-color: black;
+  height: 40px;
+  width: 1265px;
+}
+
+.login {
+  margin-left: 797px;
+  margin-top: -40px;
+}
+
+.SignUp {
+  margin-left: 880px;
+  margin-top: -40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .FAQ {
+    margin-left: 5px;
+  }
+
+  .SignUp {
+    margin-left: 325px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 405px;
+    margin-top: -40px;
+  }
+}

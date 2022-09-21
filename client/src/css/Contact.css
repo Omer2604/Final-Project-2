@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Estonia&family=Open+Sans:ital,wght@1,300&family=Square+Peg&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgroundColor {
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/15/02/07/snack-2403881_1280.png");
+}
+
+/* contact */
+
+.LabelName {
+  margin-left: 795px;
+  margin-top: 10px;
+}
+
+.NameField {
+  margin-left: 400px;
+  direction: rtl;
+}
+
+.LabelMailContact {
+  margin-left: 795px;
+}
+
+.EmailFieldContact {
+  margin-left: 400px;
+  direction: rtl;
+}
+
+.LabelPhone {
+  margin-left: 785px;
+}
+
+.PhoneField {
+  margin-left: 400px;
+  direction: rtl;
+}
+
+.SelectField {
+  margin-left: 670px;
+}
+
+select.choice {
+  margin-left: 750px;
+  direction: rtl;
+}
+
+p.remark {
+  margin-left: 380px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.LabelSubject {
+  margin-left: 680px;
+}
+
+.SubjectField {
+  margin-left: 400px;
+  direction: rtl;
+}
+
+.LabelRemarks {
+  margin-left: 743px;
+}
+
+textarea.RemarksField {
+  margin-left: 620px;
+  direction: rtl;
+}
+
+.buttonSend {
+  margin-left: 765px;
+  margin-top: 10px;
+}
+
+p.contactAnother {
+  margin-left: 420px;
+  margin-top: 15px;
+}
+
+div.contactAnotherImg {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .LabelName {
+    margin-left: 460px;
+  }
+
+  .NameField {
+    margin-left: 230px;
+  }
+
+  .LabelMailContact {
+    margin-left: 455px;
+  }
+
+  .EmailFieldContact {
+    margin-left: 230px;
+    direction: rtl;
+  }
+
+  .LabelPhone {
+    margin-left: 445px;
+  }
+
+  .PhoneField {
+    margin-left: 230px;
+  }
+
+  .SelectField {
+    margin-left: 340px;
+  }
+
+  select.choice {
+    margin-left: 415px;
+    direction: rtl;
+  }
+
+  p.remark {
+    margin-left: 140px;
+  }
+
+  .LabelSubject {
+    margin-left: 350px;
+  }
+
+  .SubjectField {
+    margin-left: 250px;
+  }
+
+  .LabelRemarks {
+    margin-left: 415px;
+  }
+
+  textarea.RemarksField {
+    margin-left: 300px;
+  }
+
+  .buttonSend {
+    margin-left: 440px;
+    margin-top: 10px;
+  }
+
+  p.contactAnother {
+    margin-left: 200px;
+  }
+
+  div.contactAnotherImg {
+    margin-left: 80px;
+  }
+}
