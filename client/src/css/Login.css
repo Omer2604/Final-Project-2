@@ -22,7 +22,13 @@ p.forgotpassword {
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
+  form.fieldsLogin {
+    margin-left: -25px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
   form.fieldsLogin {
     margin-left: 150px;
   }
@@ -33,8 +39,32 @@ p.forgotpassword {
   }
 }
 
-@media only screen and (max-width: 992px) {
-  /* form.fieldsLogin {
-    margin-left: 280px;
-  } */
+@media only screen and (min-width: 1024px) {
+  form.fieldsLogin {
+    margin-left: 270px;
+  }
+}
+
+@media only screen and (min-width: 1264px) {
+  form.fieldsLogin {
+    margin-left: 340px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  form.fieldsLogin {
+    margin-left: 350px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  form.fieldsLogin {
+    margin-left: 450px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  form.fieldsLogin {
+    margin-left: 450px;
+  }
 }

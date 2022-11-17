@@ -27,7 +27,7 @@ p.line1 {
   margin-right: -50px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   div.orders {
     direction: rtl;
     margin-right: 150px;
@@ -36,5 +36,40 @@ p.line1 {
 
   p.line1 {
     margin-right: -30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  form.field {
+    width: 400px;
+    margin-left: -300px;
+    text-align: right;
+    direction: rtl;
+  }
+
+  div.orders {
+    direction: rtl;
+    margin-right: 200px;
+    margin-top: 10px;
+  }
+
+  p.line1 {
+    margin-right: -30px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  div.orders {
+    direction: rtl;
+    margin-right: 300px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  div.orders {
+    direction: rtl;
+    margin-right: 330px;
+    margin-top: 10px;
   }
 }
